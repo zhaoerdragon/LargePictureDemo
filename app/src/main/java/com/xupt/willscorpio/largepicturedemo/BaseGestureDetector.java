@@ -32,7 +32,7 @@ public abstract class BaseGestureDetector {
         return true;
     }
 
-    protected void resetStatte() {
+    protected void resetState() {
         if (mPreMotionEvent != null) {
             mPreMotionEvent.recycle();
             mPreMotionEvent = null;
