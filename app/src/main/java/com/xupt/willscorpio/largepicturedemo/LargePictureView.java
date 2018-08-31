@@ -156,6 +156,7 @@ public class LargePictureView extends View {
         int imageWidth = mImageWidth;
         int imageHeight = mImageHeight;
 
+        //取图片中心作为初始显示区域
         mRect.left = imageWidth / 2 - width / 2;
         mRect.top = imageHeight / 2 - height / 2;
         mRect.right = mRect.right + width;
